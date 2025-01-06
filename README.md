@@ -12,13 +12,11 @@ Has a `task-status` metadata field.
 
 Then to instantiate the button
 
-```
 
-\`\`\`dataviewjs
-const {TaskStatusBtn} = await cJS()
-await TaskStatusBtn.render({container: this.container})
-\`\`\`
-```
+		```dataviewjs
+		const {TaskStatusBtn} = await cJS()
+		await TaskStatusBtn.render({container: this.container})
+		```
 
 
 
